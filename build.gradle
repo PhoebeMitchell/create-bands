@@ -29,6 +29,12 @@ subprojects {
 
         // see each subproject for more dependencies.
     }
+
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(17))
+        }
+    }
 }
 
 allprojects {

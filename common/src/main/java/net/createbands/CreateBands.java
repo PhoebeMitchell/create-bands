@@ -1,12 +1,12 @@
-package net.examplemod;
+package net.createbands;
 
 import com.simibubi.create.Create;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod {
-    public static final String MOD_ID = "examplemod";
+public class CreateBands {
+    public static final String MOD_ID = "createbands";
     public static final String NAME = "Example Mod";
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 

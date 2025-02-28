@@ -34,7 +34,7 @@ doesn't really help with Create.
 Next is the `@ExpectPlatform` annotation. It allows the implementation of a method to be replaced
 at compile time per-loader, letting you make your own abstractions. It is part of the Architectury
 plugin and does not cause an extra dependency. However, it can only be placed on static methods. See 
-[ExampleExpectPlatform](common/src/main/java/net/examplemod/ExampleExpectPlatform.java) in common 
+[ExampleExpectPlatform](common/src/main/java/net/createbands/ExampleExpectPlatform.java) in common 
 for an example.
 
 Finally, simply have a common interface with implementation based on the loader. You might have a
@@ -52,7 +52,7 @@ Ready to get started? First you'll want to create a new repository using this te
 through GitHub with the big green button near the top that says `Use this template`. 
 
 Once you've got your repository set up, you'll want to change all the branding to your mod instead 
-of the template. Every `examplemod`, every placeholder. 
+of the template. Every `createbands`, every placeholder. 
 
 You're free to change your license: CC0 lets you do whatever you want. Base Create is MIT, for reference. 
 
